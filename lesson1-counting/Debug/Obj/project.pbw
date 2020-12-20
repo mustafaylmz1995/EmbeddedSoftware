@@ -1,0 +1,44 @@
+[
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "2",
+      "path": "C:\\Users\\mustafa\\Desktop\\embedded_programming\\lesson1-counting\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@27@F@main@ct",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "ct",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\Users\\mustafa\\Desktop\\embedded_programming\\lesson1-counting\\main.c"
+    },
+    "name": "ct",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@63@F@main@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "18",
+      "line": "7",
+      "path": "C:\\Users\\mustafa\\Desktop\\embedded_programming\\lesson1-counting\\main.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  }
+]
