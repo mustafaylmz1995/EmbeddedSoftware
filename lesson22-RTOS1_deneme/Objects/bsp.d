@@ -1,0 +1,9 @@
+.\objects\bsp.o: bsp.c
+.\objects\bsp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bsp.o: bsp.h
+.\objects\bsp.o: ..\KEIL_lib\TM4C1294NCPDT_sys\TM4C1294NCPDT.h
+.\objects\bsp.o: ..\lesson22-RTOS1_deneme\core_cm4.h
+.\objects\bsp.o: ..\KEIL_lib\core_CMSIS\cmsis_version.h
+.\objects\bsp.o: ..\KEIL_lib\core_CMSIS\cmsis_compiler.h
+.\objects\bsp.o: ..\KEIL_lib\core_CMSIS\cmsis_armcc.h
+.\objects\bsp.o: ..\KEIL_lib\TM4C1294NCPDT_sys\system_TM4C129.h

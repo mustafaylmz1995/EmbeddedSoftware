@@ -1,0 +1,24 @@
+Dependencies for Project 'lesson', Target 'dbg': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\bsp.c)(0x5FBC1A7E)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\lesson22-RTOS1_deneme -I ..\KEIL_lib\core_CMSIS -I ..\KEIL_lib\TM4C1294NCPDT_sys-I.\RTE\_dbg-IC:\Users\mustafa\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1294NCPDT -D__FPU_PRESENT-o .\objects\bsp.o --omf_browse .\objects\bsp.crf --depend .\objects\bsp.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (bsp.h)(0x5FBBFF2A)
+I (..\KEIL_lib\TM4C1294NCPDT_sys\TM4C1294NCPDT.h)(0x5DED583D)
+I (..\lesson22-RTOS1_deneme\core_cm4.h)(0x5A71BB06)
+I (..\KEIL_lib\core_CMSIS\cmsis_version.h)(0x5D25D706)
+I (..\KEIL_lib\core_CMSIS\cmsis_compiler.h)(0x5D25D706)
+I (..\KEIL_lib\core_CMSIS\cmsis_armcc.h)(0x5D25D706)
+I (..\KEIL_lib\TM4C1294NCPDT_sys\system_TM4C129.h)(0x5DEBD7F9)
+F (.\main.c)(0x5FBD5937)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\lesson22-RTOS1_deneme -I ..\KEIL_lib\core_CMSIS -I ..\KEIL_lib\TM4C1294NCPDT_sys-I.\RTE\_dbg-IC:\Users\mustafa\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1294NCPDT -D__FPU_PRESENT-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (bsp.h)(0x5FBBFF2A)
+F (.\bsp.h)(0x5FBBFF2A)()
+F (..\KEIL_lib\TM4C1294NCPDT_sys\startup_TM4C129.s)(0x5FBC1B64)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_dbg-IC:\Users\mustafa\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "TM4C1294NCPDT SETA 1"-o .\objects\startup_tm4c129.o --depend .\objects\startup_tm4c129.d)
+F (.\system_tm4c129.c)(0x5FBD3DB2)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\KEIL_lib\core_CMSIS -I ..\KEIL_lib\TM4C1294NCPDT_sys-I.\RTE\_dbg-IC:\Users\mustafa\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1294NCPDT -D__FPU_PRESENT-o .\objects\system_tm4c129.o --omf_browse .\objects\system_tm4c129.crf --depend .\objects\system_tm4c129.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (..\KEIL_lib\TM4C1294NCPDT_sys\TM4C1294NCPDT.h)(0x5DED583D)
+I (..\KEIL_lib\core_CMSIS\core_cm4.h)(0x5D25D706)
+I (..\KEIL_lib\core_CMSIS\cmsis_version.h)(0x5D25D706)
+I (..\KEIL_lib\core_CMSIS\cmsis_compiler.h)(0x5D25D706)
+I (..\KEIL_lib\core_CMSIS\cmsis_armcc.h)(0x5D25D706)
+I (..\KEIL_lib\TM4C1294NCPDT_sys\system_TM4C129.h)(0x5DEBD7F9)
