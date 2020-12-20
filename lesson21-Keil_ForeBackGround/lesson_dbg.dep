@@ -1,0 +1,31 @@
+Dependencies for Project 'lesson', Target 'dbg': (DO NOT MODIFY !)
+CompilerVersion: 6130001::V6.13.1::.\ARMCLANG
+F (.\real_files\bsp.c)(0x5FBACA89)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../KEIL_lib/core_CMSIS -I ../KEIL_lib/TM4C1294NCPDT_sys -D__UVISION_VERSION="529" -DTM4C1294NCPDT -D__FPU_PRESENT-o ./bsp.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB393F0)
+I (real_files\bsp.h)(0x5FBABD77)
+I (..\KEIL_lib\TM4C1294NCPDT_sys\TM4C1294NCPDT.h)(0x5DED583D)
+I (..\KEIL_lib\core_CMSIS\core_cm4.h)(0x5D25D706)
+I (..\KEIL_lib\core_CMSIS\cmsis_version.h)(0x5D25D706)
+I (..\KEIL_lib\core_CMSIS\cmsis_compiler.h)(0x5D25D706)
+I (..\KEIL_lib\core_CMSIS\cmsis_armclang.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EFBC8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A64AE)
+I (..\KEIL_lib\TM4C1294NCPDT_sys\system_TM4C129.h)(0x5DEBD7F9)
+F (.\real_files\main.c)(0x5FBACAE5)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../KEIL_lib/core_CMSIS -I ../KEIL_lib/TM4C1294NCPDT_sys -D__UVISION_VERSION="529" -DTM4C1294NCPDT -D__FPU_PRESENT-o ./main.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB393F0)
+I (real_files\delay.h)(0x5DEBE72E)
+I (real_files\bsp.h)(0x5FBABD77)
+F (.\real_files\bsp.h)(0x5FBABD77)()
+F (..\KEIL_lib\TM4C1294NCPDT_sys\system_TM4C129.h)(0x5DEBD7F9)()
+F (..\KEIL_lib\TM4C1294NCPDT_sys\TM4C1294NCPDT.h)(0x5DED583D)()
+F (..\KEIL_lib\TM4C1294NCPDT_sys\system_tm4c129.c)(0x5DFE8286)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../KEIL_lib/core_CMSIS -I ../KEIL_lib/TM4C1294NCPDT_sys -D__UVISION_VERSION="529" -DTM4C1294NCPDT -D__FPU_PRESENT-o ./system_tm4c129.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DB393F0)
+I (..\KEIL_lib\TM4C1294NCPDT_sys\TM4C1294NCPDT.h)(0x5DED583D)
+I (..\KEIL_lib\core_CMSIS\core_cm4.h)(0x5D25D706)
+I (..\KEIL_lib\core_CMSIS\cmsis_version.h)(0x5D25D706)
+I (..\KEIL_lib\core_CMSIS\cmsis_compiler.h)(0x5D25D706)
+I (..\KEIL_lib\core_CMSIS\cmsis_armclang.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EFBC8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A64AE)
+I (..\KEIL_lib\TM4C1294NCPDT_sys\system_TM4C129.h)(0x5DEBD7F9)
+F (..\KEIL_lib\TM4C1294NCPDT_sys\startup_TM4C129.s)(0x5DFE8BEF)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --pd "__UVISION_VERSION SETA 529"--pd "TM4C1294NCPDT SETA 1"-o .\startup_tm4c129.o--depend .\startup_tm4c129.d)
