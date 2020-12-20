@@ -1,0 +1,16 @@
+bsp.pbi: \
+  C:\Users\mustafa\Desktop\embedded_programming\lesson17-interrupt_p2\bsp.c \
+  C:\Users\mustafa\Desktop\embedded_programming\lesson17-interrupt_p2/TM4C1294NCPDT.h \
+  C:\Users\mustafa\Desktop\embedded_programming\lesson17-interrupt_p2/core_cm4.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  C:\\Program\ Files\ (x86)\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  C:\Users\mustafa\Desktop\embedded_programming\lesson17-interrupt_p2/cmsis_version.h \
+  C:\Users\mustafa\Desktop\embedded_programming\lesson17-interrupt_p2/cmsis_compiler.h \
+  C:\Users\mustafa\Desktop\embedded_programming\lesson17-interrupt_p2/cmsis_iccarm.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\iccarm_builtin.h \
+  C:\Users\mustafa\Desktop\embedded_programming\lesson17-interrupt_p2/system_TM4C129.h \
+  C:\Users\mustafa\Desktop\embedded_programming\lesson17-interrupt_p2/bsp.h
