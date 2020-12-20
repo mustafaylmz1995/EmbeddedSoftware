@@ -1,0 +1,44 @@
+[
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "27",
+      "path": "C:\\Users\\mustafa\\Desktop\\embedded_programming\\lesson4-blinking_the_LED\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@933@F@main@s",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "s",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "C:\\Users\\mustafa\\Desktop\\embedded_programming\\lesson4-blinking_the_LED\\main.c"
+    },
+    "name": "s",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1033@F@main@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "13",
+      "line": "36",
+      "path": "C:\\Users\\mustafa\\Desktop\\embedded_programming\\lesson4-blinking_the_LED\\main.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  }
+]
