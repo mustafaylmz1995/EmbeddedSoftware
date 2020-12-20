@@ -1,0 +1,1 @@
+"./bsp.o" "./delay.o" "./main.o" "./startup_tm4c.o" -Wl,-T"../tm4c1294ncpdt.lds" 
