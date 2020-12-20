@@ -1,0 +1,164 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: mustafa yilmaz, Anadolu Universiyt, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.13.1
+Assembler:       Armasm.exe V6.13.1
+Linker/Locator:  ArmLink.exe V6.13.1
+Library Manager: ArmAr.exe V6.13.1
+Hex Converter:   FromElf.exe V6.13.1
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+C:\Users\mustafa\Desktop\embedded_programming\lesson23-RTOS2\lesson.uvprojx
+Project File Date:  11/25/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.13.1', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'dbg'
+assembling startup_TM4C129.s...
+real_files/main.c(6): warning: In file included from...
+../MiROS\miros.h(25): warning: this function declaration is not a prototype [-Wstrict-prototypes]
+typedef void (*OSThreadHandler)();
+                               ^
+                                void
+../MiROS\miros.h(36): warning: no newline at end of file [-Wnewline-eof]
+#endif //__MIROS_H__
+                    ^
+real_files/main.c(14): warning: function 'main_blinky1' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+void main_blinky1(void){
+                       ^
+real_files/main.c(30): warning: function 'main_blinky2' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+void main_blinky2(void){
+                       ^
+real_files/main.c(48): warning: incompatible pointer types passing 'OSThread **' to parameter of type 'OSThread *'; remove & [-Wincompatible-pointer-types]
+                OSThread_start(&blinky1, &main_blinky1, stack_blinky1, sizeof(stack_blinky1));
+                               ^~~~~~~~
+../MiROS\miros.h(33): note: passing argument to parameter 'me' here
+void OSThread_start(OSThread *me, OSThreadHandler threadHandler, void *stkSto, uint32_t stkSize);
+                              ^
+real_files/main.c(49): warning: incompatible pointer types passing 'OSThread **' to parameter of type 'OSThread *'; remove & [-Wincompatible-pointer-types]
+                OSThread_start(&blinky2, &main_blinky2, stack_blinky2, sizeof(stack_blinky2));
+                               ^~~~~~~~
+../MiROS\miros.h(33): note: passing argument to parameter 'me' here
+void OSThread_start(OSThread *me, OSThreadHandler threadHandler, void *stkSto, uint32_t stkSize);
+                              ^
+real_files/main.c(11): warning: no previous extern declaration for non-static variable 'stack_blinky1' [-Wmissing-variable-declarations]
+uint32_t stack_blinky1[40];
+         ^
+real_files/main.c(11): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint32_t stack_blinky1[40];
+^
+real_files/main.c(12): warning: no previous extern declaration for non-static variable 'blinky1' [-Wmissing-variable-declarations]
+OSThread *blinky1; 
+          ^
+real_files/main.c(12): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+OSThread *blinky1; 
+^
+real_files/main.c(27): warning: no previous extern declaration for non-static variable 'stack_blinky2' [-Wmissing-variable-declarations]
+uint32_t stack_blinky2[40];
+         ^
+real_files/main.c(27): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint32_t stack_blinky2[40];
+^
+real_files/main.c(28): warning: no previous extern declaration for non-static variable 'blinky2' [-Wmissing-variable-declarations]
+OSThread *blinky2;
+          ^
+real_files/main.c(28): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+OSThread *blinky2;
+^
+10 warnings generated.
+compiling main.c...
+../MiROS/miros.c(2): warning: In file included from...
+../MiROS/miros.h(25): warning: this function declaration is not a prototype [-Wstrict-prototypes]
+typedef void (*OSThreadHandler)();
+                               ^
+                                void
+../MiROS/miros.h(36): warning: no newline at end of file [-Wnewline-eof]
+#endif //__MIROS_H__
+                    ^
+../MiROS/miros.c(93): warning: no newline at end of file [-Wnewline-eof]
+}
+ ^
+../MiROS/miros.c(84): warning: variable 'sp' is uninitialized when used here [-Wuninitialized]
+                                OS_curr->sp  = sp;
+                                               ^~
+../MiROS/miros.c(76): note: initialize the variable 'sp' to silence this warning
+                void *sp;
+                        ^
+                         = 0
+../MiROS/miros.c(9): warning: no previous extern declaration for non-static variable 'OS_curr' [-Wmissing-variable-declarations]
+OSThread * volatile OS_curr; /* pointer to current thread */
+                    ^
+../MiROS/miros.c(9): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+OSThread * volatile OS_curr; /* pointer to current thread */
+^
+../MiROS/miros.c(10): warning: no previous extern declaration for non-static variable 'OS_next' [-Wmissing-variable-declarations]
+OSThread * volatile OS_next; /* pointer to next thread to run */
+                    ^
+../MiROS/miros.c(10): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+OSThread * volatile OS_next; /* pointer to next thread to run */
+^
+6 warnings generated.
+compiling miros.c...
+real_files/bsp.c(7): warning: In file included from...
+../MiROS\miros.h(25): warning: this function declaration is not a prototype [-Wstrict-prototypes]
+typedef void (*OSThreadHandler)();
+                               ^
+                                void
+../MiROS\miros.h(36): warning: no newline at end of file [-Wnewline-eof]
+#endif //__MIROS_H__
+                    ^
+2 warnings generated.
+compiling bsp.c...
+../KEIL_lib/TM4C1294NCPDT_sys/system_tm4c129.c(355): warning: unused variable 'fsys' [-Wunused-variable]
+                        unsigned int fsys = fvco / (plldiv + 1);
+                                     ^
+../KEIL_lib/TM4C1294NCPDT_sys/system_tm4c129.c(362): warning: unused variable 'clk_rate' [-Wunused-variable]
+                unsigned int clk_rate = getOscClk(clk_src, sys_div);
+                             ^
+../KEIL_lib/TM4C1294NCPDT_sys/system_tm4c129.c(325): warning: unused variable 'pll_src' [-Wunused-variable]
+                unsigned int pll_src = ((rsclkcfg &= (0xF << 24)) >> 24);
+                             ^
+../KEIL_lib/TM4C1294NCPDT_sys/system_tm4c129.c(404): warning: unused variable 'i' [-Wunused-variable]
+                        volatile uint32_t i;
+                                          ^
+../KEIL_lib/TM4C1294NCPDT_sys/system_tm4c129.c(418): warning: unused variable 'LOCK_val' [-Wunused-variable]
+                uint32_t volatile RSCLK_CFG, MOSCPUP_RIS, LOCK_val ;
+                                                          ^
+../KEIL_lib/TM4C1294NCPDT_sys/system_tm4c129.c(482): warning: function 'Q_onAssert' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+void Q_onAssert(char const *module, int loc) {
+                                             ^
+6 warnings generated.
+compiling system_tm4c129.c...
+linking...
+Program Size: Code=2960 RO-data=552 RW-data=4 ZI-data=1484  
+".\lesson.axf" - 0 Error(s), 24 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_dbg
+  C:\Users\mustafa\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
