@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: mustafa yilmaz, Anadolu Universiyt, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+C:\Users\mustafa\Desktop\embedded_programming\lesson23-RTOS2_deneme\lesson.uvprojx
+Project File Date:  11/29/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'dbg'
+assembling startup_TM4C129.s...
+compiling main.c...
+main.c(48): warning:  #167-D: argument of type "OSThread **" is incompatible with parameter of type "OSThread *"
+  		OSThread_start(&blinky1, &main_blinky1, stack_blinky1, sizeof(stack_blinky1));
+main.c(49): warning:  #167-D: argument of type "OSThread **" is incompatible with parameter of type "OSThread *"
+  		OSThread_start(&blinky2, &main_blinky2, stack_blinky2, sizeof(stack_blinky2));
+main.c(57): warning:  #1-D: last line of file ends without a newline
+  }
+main.c: 3 warnings, 0 errors
+compiling bsp.c...
+compiling system_tm4c129.c...
+compiling miros.c...
+linking...
+Program Size: Code=1232 RO-data=552 RW-data=24 ZI-data=1456  
+".\Objects\lesson.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_dbg
+  C:\Users\mustafa\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
